@@ -28,7 +28,7 @@ A simple and responsive React-based To-Do List application. Users can add, and d
 
 ---
 
-## [Live Preview](react-todo-app-git-main-aeshans-projects-5582dde3.vercel.app)
+## [Live Preview](https://react-todo-o5cf0ep20-aeshans-projects-5582dde3.vercel.app/)
 
 ---
 
