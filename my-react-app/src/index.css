@@ -1,0 +1,123 @@
+.to-do-list{
+    margin-top: 25px;
+    text-align: center;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+button{
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 4px 6px black;
+    margin: 0 6px;
+}
+
+button:disabled{
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+button:disabled:hover{
+  background-color: inherit;
+  box-shadow: none;
+}
+
+.add-button{
+    background-color: white;
+}
+
+.add-button:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.add-button:active{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.delete-button{
+    background-color: hsl(354, 70%, 54%);
+}
+
+.delete-button:hover{
+    background-color: hsl(354, 70%, 44%);
+}
+
+.delete-button:active{
+    background-color: hsl(354, 70%, 54%);
+}
+
+.move-button{
+    background-color: white;
+}
+
+.move-button:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.move-button:active{
+    background-color: white;
+}
+
+input[type="text"]{
+    font-size: 2rem;
+    padding: 25px;
+    margin-right: 10px;
+    box-shadow: 0 4px 6px black;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to bottom, white, hsl(0, 0%, 90%));
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2rem;
+    padding: 15px;
+    background: linear-gradient(to bottom, white, hsl(0, 0%, 90%));
+    border-bottom: 1px solid black;
+    border-radius: 150px;
+    text-align: left;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto 20px;
+}
+
+.input-wrapper input[type="text"] {
+    padding-right: 90px;
+}
+
+.input-wrapper .add-button {
+    position: absolute;
+    right: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
